@@ -6,3 +6,4 @@ upload-audit.log
 .env
 .env.*
 .DS_Store
+test-upload/

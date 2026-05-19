@@ -1,0 +1,10 @@
+services:
+  sftp-test:
+    build:
+      context: ./docker
+      args:
+        BASE_IMAGE: docker.1ms.run/library/alpine:3.20
+    container_name: ftp-uploader-sftp-test
+    ports:
+      - "2222:22"
+    restart: unless-stopped
