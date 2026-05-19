@@ -1,9 +1,0 @@
-{
-  "name": "ftp-uploader",
-  "version": "1.0.0",
-  "description": "Upload local files or folders to a remote server via SFTP using natural language commands",
-  "entry": "dist/index.js",
-  "bin": "ftp-uploader",
-  "keywords": ["sftp", "upload", "deploy", "ftp"],
-  "memoryFile": ".claude-memory.json"
-}
